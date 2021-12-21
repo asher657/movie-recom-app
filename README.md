@@ -16,3 +16,5 @@ Next, we recommend the top 10 trendiest movies in the user’s favorite genre. W
 Funk SVD decomposes the original matrix into two lower rank matrices, U and V. U is the user-factor matrix and V is the item-factor matrix. Funk SVD finds latent factors in the data, which in our case is movie genres, and uses those to help predict ratings and recommend movies. Funk SVD uses stochastic gradient descent to minimize the error between the actual and the predicted rating. The learning rate we use for SGD is the default 0.001. The min_epochs and max_epochs are the minimum and maximum iterations per feature and are set to 20 and 50 respectively.
 #### User-Based Collaborative Recommendation
 User-Based Collaborative Filtering works upon the assumption that good recommendations for a new user can be generated based on the ratings of existing users with similar tastes. We train a recommender that will aggregate the ratings of a group of ‘nearest-neighbor users’, and produce recommendations from them.
+## App Link
+https://rabrynsvold.shinyapps.io/recommenderapp/
